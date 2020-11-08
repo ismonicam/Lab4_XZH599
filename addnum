@@ -1,0 +1,9 @@
+#!/bin/bash
+
+total=0
+for var in "$@"
+do
+total=`expr $total + $var`
+done
+
+echo $total
